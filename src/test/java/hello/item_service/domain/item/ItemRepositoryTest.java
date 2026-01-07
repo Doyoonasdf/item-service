@@ -27,7 +27,7 @@ class ItemRepositoryTest {
 
      //then
      Item findItem = itemRepository.findById(item.getId());
-     assertThat(findItem).isEqualTo(savedItem)
+     assertThat(findItem).isEqualTo(savedItem);
 
      }
 
